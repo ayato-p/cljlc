@@ -1,10 +1,15 @@
 # cljlc
+[![Clojars Project](http://clojars.org/org.clojars.ayato_p/cljlc/latest-version.svg)](http://clojars.org/org.clojars.ayato_p/cljlc)
 
-A Clojure library designed to ... well, that part is up to you.
+This library can be judged whether the palindrome.
+That's it :)
 
 ## Usage
 
-FIXME
+```
+(:require [cljlc.core :refer [palindrome?]])
+(palindrome? "Nor I, fool, ah no? We won halo -- of iron.") ;=> true
+```
 
 ## License
 
